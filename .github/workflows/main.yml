@@ -39,6 +39,6 @@ jobs:
       - name: java verification
         run: java -version
       - name: git verification
-        run: git -version
+        run: git version
       - name: mvn verification
         run: mvn --version
