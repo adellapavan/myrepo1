@@ -42,3 +42,8 @@ jobs:
         run: git version
       - name: mvn verification
         run: mvn --version
+      # job end
+      - name: Run a multi-line script
+        run: |
+          echo job ended
+          
