@@ -41,4 +41,4 @@ jobs:
       - name: git verification
         run: git -version
       - name: maven verification
-        run: mvn -version
+        run: mvn --version
