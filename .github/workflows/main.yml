@@ -34,3 +34,11 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      # Apps verification using version
+      - name: java verification
+        run: java -version
+      - name: git verification
+        run: git -version
+      - name: maven verification
+        run: mvn -version
